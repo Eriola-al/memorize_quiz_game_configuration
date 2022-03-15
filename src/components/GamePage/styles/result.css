@@ -1,0 +1,70 @@
+.result {
+    width: 800px;
+    height: 524px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+  background-color: rgba(2, 2, 63, 0.3);
+  }
+  .header {
+    margin: 25px;
+    border-radius: 1px;
+    text-align: center;
+    background-color: rgba(2, 2, 63, 0.6);
+    animation-name: win;
+    animation-duration: 3s;
+  }
+  .header-winner {
+    margin: 25px;
+    border-radius: 1px;
+    text-align: center;
+    background-color: rgba(2, 2, 63, 0.6);
+    animation-name: win;
+    animation-duration: 3s;
+    padding: 0 5px 15px 5px;
+  }
+  .header-lose {
+    margin: 25px;
+    border-radius: 1px;
+    text-align: center;
+    background-color: rgba(2, 2, 63, 0.6);
+    animation-name: win;
+    animation-duration: 3s;
+    padding: 15px;
+    animation: moveInRight 1s ease-out;
+  }
+  
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    80% {
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  @keyframes win {
+    from {
+      font-size: 12px;
+    }
+    to {
+      font-size: 35px;
+    }
+  }
+  .result-btn {
+    border: none;
+    color: aliceblue;
+    background-color: rgba(2, 2, 63, 0.6);
+    border-radius: 1px;
+    margin: 30px 10px;
+    padding: 10px;
+  }

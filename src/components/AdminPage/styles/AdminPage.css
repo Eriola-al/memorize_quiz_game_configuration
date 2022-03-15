@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 0px 30px;
+    column-gap: 45px;
+}
+.con-2{
+    display: flex;
+    gap: 100px;
+    margin: 0px 100px 30px 50px;
+}
+
+.game-rules{
+    background-color: #d9e1f2;
+    margin: 0 45px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 4px;
+}
+.game-rules Input{
+    width: 500px;
+}

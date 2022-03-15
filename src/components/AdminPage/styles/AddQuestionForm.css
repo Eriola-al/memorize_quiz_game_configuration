@@ -1,0 +1,37 @@
+.form-container{
+    /*box-shadow:*/
+    /*        0 2.8px 2.2px rgba(0, 0, 0, 0.03),*/
+    /*        0 6.7px 5.3px rgba(0, 0, 0, 0.05),*/
+    /*        0 12.5px 10px rgba(0, 0, 0, 0.06),*/
+    /*        0 22.3px 17.9px rgba(0, 0, 0, 0.07),*/
+    /*        0 41.8px 33.4px rgba(0, 0, 0, 0.09),*/
+    /*        0 100px 80px rgba(0, 0, 0, 0.12);*/
+    border-radius: 5px;
+    background-color: #d9e1f2;
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-form{
+    align-items: center;
+    margin: 15px;
+}
+
+
+.new-input-buttons{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+    padding: 0 15px 10px 0;
+    margin-bottom: 10px;
+}
